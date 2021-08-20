@@ -1,10 +1,11 @@
 
 node{
-        stage("1"){
-            environment { 
+        environment { 
                 w1 = 1
                 w2 = 1
             }
+        stage("1"){
+            
             steps{ 
             
             sh "echo $w1"
