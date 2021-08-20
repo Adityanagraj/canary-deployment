@@ -1,9 +1,7 @@
 
 node{
-        environment { 
-                w1 = 1
-                w2 = 1
-            }
+        env.w1 = 10
+        env.w2 = 20
         stage("1"){
             
             steps{ 
