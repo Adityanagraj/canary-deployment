@@ -4,7 +4,7 @@ node{
         env.w2 = 20
         stage("1"){
             
-            steps{ 
+            
             
             sh "echo $w1"
             sh "echo ${w1}"
@@ -15,7 +15,7 @@ node{
                 )
               sh "cat env.yaml"
             
-            }
+            
         }
 }
 
