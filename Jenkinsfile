@@ -1,6 +1,5 @@
-pipeline{
-    agent any
-    stages{
+
+node{
         stage("1"){
             environment { 
                 w1 = 1
@@ -19,5 +18,5 @@ pipeline{
             
             }
         }
-    }
 }
+
